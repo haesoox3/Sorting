@@ -12,6 +12,13 @@ function bubbleSort(array){
 	return array;
 }
 
+// Array.prototype.swap = function(i){
+// 	var temp = this[i];
+// 	this[i] = this[i+1];
+// 	this[i+1] = temp;
+// 	return this;
+// }
+
 function swap(array, i){
 	var temp = array[i];
 	array[i] = array[i+1];
